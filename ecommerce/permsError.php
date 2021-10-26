@@ -1,4 +1,3 @@
-die ('
 <style>
     body {
         margin: auto;
@@ -34,4 +33,3 @@ die ('
         <br><br>
         <button onclick="window.history.back();" id=\'reload_button\'>Torna Indietro</button>
     <footer>Powered by <a href="http://kgn.ovh/" target="_blank">Keegan</a></footer>
-    ');

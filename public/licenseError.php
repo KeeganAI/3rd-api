@@ -1,4 +1,3 @@
-die ('
 <style>
     body {
         margin: auto;
@@ -30,4 +29,3 @@ die ('
         <br><br>
         <button onclick="window.location.reload();" id=\'reload_button\'>Riprova</button>
     <footer>Powered by <a href="http://kgn.ovh/" target="_blank">Keegan</a></footer>
-    ');
