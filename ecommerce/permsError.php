@@ -13,7 +13,7 @@
         font-size: 8px;
     }
 
-    #reload_button {
+    button {
         background: #7f00ff;
         color: rgb(199, 199, 199);
         border: 0;
@@ -28,8 +28,8 @@
 <center><h1>Si è verificato un errore <br><span>(Code 403)</span></h1>
     <b>Non sei autorizzato</b> a visualizzare questa pagina. <br>
     <br>
-    <p> Se credi sia un errore, contatta l\'amministratore del sito.
+    <p> Se credi sia un errore, contatta l'amministratore del sito.
         <br>Puoi tornare alla pagina precedente cliccando sul pulsante qui sotto.
         <br><br>
         <button onclick="window.history.back();" id=\'reload_button\'>Torna Indietro</button>
-    <footer>Powered by <a href="http://kgn.ovh/" target="_blank">Keegan</a></footer>
+    <footer>Powered by <a href="http://kgn.ovh/" target="_blank">Keegan | Lorenzo Rimi</a></footer>

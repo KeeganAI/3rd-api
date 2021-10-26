@@ -7,7 +7,7 @@
         background-color: #474747;
     }
 
-    #reload_button {
+    button {
         background: #7f00ff;
         color: rgb(199, 199, 199);
         border: 0;
@@ -23,9 +23,9 @@
     Si è verificato un errore tecnico <b>con la licenza</b>. <br>
     Il sito non sarà disponibile fino a quando il problema non sarà risolto.
     <br>
-    <p> Se vuoi maggiori informazioni riguardanti l\'errore, sei pregato di contattare <abbr title="Keegan#5295 su Discord"> Keegan<i>#5295</i></abbr><br>
+    <p> Se vuoi maggiori informazioni riguardanti l'errore, sei pregato di contattare <abbr title="Keegan#5295 su Discord"> Keegan<i>#5295</i></abbr><br>
         oppure tramite il sito <a href="https://lrnz.xyz" target="_blank"> lrnz.xyz</a>
         <br>Puoi riprovare cliccando sul pulsante qui sotto.
         <br><br>
         <button onclick="window.location.reload();" id=\'reload_button\'>Riprova</button>
-    <footer>Powered by <a href="http://kgn.ovh/" target="_blank">Keegan</a></footer>
+    <footer>Powered by <a href="https://lrnz.xyz/" target="_blank">Keegan | Lorenzo Rimi</a></footer>
