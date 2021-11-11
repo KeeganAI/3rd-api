@@ -7,12 +7,6 @@
         background-color: #6b6b6b;
     }
 
-    footer {
-        text-align: center;
-        padding: 3px;
-        font-size: 8px;
-    }
-
     button {
         background: #7f00ff;
         color: rgb(199, 199, 199);
@@ -28,8 +22,13 @@
 <center><h1>Si è verificato un errore <br><span>(Code 403)</span></h1>
     <b>Non sei autorizzato</b> a visualizzare questa pagina. <br>
     <br>
-    <p> Se credi sia un errore, contatta l'amministratore del sito.
+    <p> Se credi che questo sia un errore, contatta l'amministratore del sito.
         <br>Puoi tornare alla pagina precedente cliccando sul pulsante qui sotto.
         <br><br>
+        <script>
+            var audio = new Audio('../assets/unh.mp3');
+            audio.play();
+            audio.volume = 4;
+        </script>
         <button onclick="window.history.back();" id=\'reload_button\'>Torna Indietro</button>
     <footer>Powered by <a href="http://kgn.ovh/" target="_blank">Keegan | Lorenzo Rimi</a></footer>

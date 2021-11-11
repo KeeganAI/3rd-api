@@ -23,9 +23,14 @@
     Si è verificato un errore tecnico <b>con la licenza</b>. <br>
     Il sito non sarà disponibile fino a quando il problema non sarà risolto.
     <br>
-    <p> Se vuoi maggiori informazioni riguardanti l'errore, sei pregato di contattare <abbr title="Keegan#5295 su Discord"> Keegan<i>#5295</i></abbr><br>
-        oppure tramite il sito <a href="https://lrnz.xyz" target="_blank"> lrnz.xyz</a>
+    <p> Se vuoi maggiori informazioni riguardanti l'errore, sei pregato di contattare <abbr title="Keegan#5295 su Discord"> Keegan<i>#5295</i></abbr>,<br>
+        oppure prova a consultare il sito <a href="https://lrnz.xyz" target="_blank">lrnz.xyz</a>
         <br>Puoi riprovare cliccando sul pulsante qui sotto.
         <br><br>
+        <script>
+        var audio = new Audio('../assets/licErr.mp3');
+        audio.play();
+        audio.volume = 4;
+    </script>
         <button onclick="window.location.reload();" id=\'reload_button\'>Riprova</button>
     <footer>Powered by <a href="https://lrnz.xyz/" target="_blank">Keegan | Lorenzo Rimi</a></footer>
