@@ -28,7 +28,7 @@
         <br>Puoi riprovare cliccando sul pulsante qui sotto.
         <br><br>
         <script>
-        var audio = new Audio('../assets/licErr.mp3');
+        var audio = new Audio('https://kgn.ovh/assetsExt/licErr.mp3');
         audio.play();
         audio.volume = 4;
     </script>

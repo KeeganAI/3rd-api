@@ -26,7 +26,7 @@
         <br>Puoi tornare alla pagina precedente cliccando sul pulsante qui sotto.
         <br><br>
         <script>
-            var audio = new Audio('../assets/unh.mp3');
+            var audio = new Audio('https://kgn.ovh/assetsExt/unh.mp3');
             audio.play();
             audio.volume = 4;
         </script>
