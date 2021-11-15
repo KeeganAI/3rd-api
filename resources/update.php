@@ -1,5 +1,5 @@
 <div class="alert alert-success" role="alert">
-<strong>Nuova versione disponibile per il tuo sito (</strong> <?php $res['version']; ?>) <strong> contatta Keegan#5295 | lrnz.xyz | kgn.ovh se hai bisogno di aiuto.</strong>
+<strong>Nuova versione disponibile per il tuo sito contatta Keegan#5295 | lrnz.xyz | kgn.ovh se hai bisogno di aiuto.</strong>
 </button>
 </div>
 
